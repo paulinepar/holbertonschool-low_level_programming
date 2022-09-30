@@ -5,7 +5,7 @@
  *
  * Return: Always 0 (Success)
  */
-int main(int argc, char *argv[])
+int main(void)
 {
 printf("Size of char: % bytes\n", sizeof(charType));
 printf("Size of an int: %d bytes\n", sizeof(intType));
