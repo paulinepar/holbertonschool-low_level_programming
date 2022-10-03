@@ -9,12 +9,12 @@
 
 int main(void)
 {
-char i
+char ch
 
 srand(time(0));
 n = rand() - RAND_MAX / 2;
-printf("\n\nLower case characters:\n");
-for (i = 'a'; i <= 'z'; i++)
-printf("%c", i);
+for (ch = 'a'; ch <= 'z'; ch++)
+putchar (ch);
+putchar ('\n');
 return (0);
 }
