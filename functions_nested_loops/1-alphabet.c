@@ -5,10 +5,10 @@
  * Return: Always 0 (Success)
  */
 
-void print_alphabet(void){
-  
+void print_alphabet(void)
+{
 int al = 'a';
-while(al <= 'z')
+while (al <= 'z')
 {
 _putchar(al);
 al++;
