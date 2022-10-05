@@ -13,8 +13,7 @@ while (al <= 'z')
 {
 _putchar(al);
 al++;
-for (i = 0; i <= 10; i++)
-putchar(i);
 }
 _putchar('\n');
+return (10)
 }
