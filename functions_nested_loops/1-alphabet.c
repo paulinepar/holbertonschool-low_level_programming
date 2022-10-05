@@ -2,7 +2,7 @@
 
 /**
  * main - Entry point
- *
+ * printf_alphabet - functions
  * Return: Always 0 (Success)
  */
 
