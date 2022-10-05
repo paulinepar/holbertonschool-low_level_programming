@@ -2,7 +2,6 @@
 
 /**
  * print_alphabet - functions
- * 
  * Return: Always 0 (Success)
  */
 
