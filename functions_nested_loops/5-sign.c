@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- * print_sign - check character
- * @c: check character
+ * print_sign - return and prints value
+ * @n: check character
  * Return: Always 0 (Success)
  */
 
