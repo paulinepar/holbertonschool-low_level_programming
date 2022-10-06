@@ -12,7 +12,7 @@ char al = 'a';
 
 for (i = 0; i < 10; i++)
 {
-  for (al = 'a'; al <= 'z'; al++)
+for (al = 'a'; al <= 'z'; al++)
 {
 _putchar(al);
 }
