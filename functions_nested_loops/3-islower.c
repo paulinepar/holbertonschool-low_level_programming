@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- * _islower(int c); - check character
- * @c : check character
+ * _islower - check character
+ * @c: check character
  * Return: Always 0 (Success)
  */
 
