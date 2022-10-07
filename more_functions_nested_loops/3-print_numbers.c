@@ -2,7 +2,7 @@
 
 /**
  * print_numbers - prints numbers
- * 
+ * @n - int
  * Return: Always 0 (Success)
  */
 
