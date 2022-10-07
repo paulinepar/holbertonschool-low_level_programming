@@ -1,8 +1,9 @@
 #include "main.h"
 
 /**
- * mul - check character
- * @c: check character
+ * mul - multiplies integer
+ * @a: integer
+ * @b: integer
  * Return: Always 0 (Success)
  */
 
