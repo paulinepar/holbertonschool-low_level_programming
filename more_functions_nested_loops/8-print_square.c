@@ -2,15 +2,14 @@
 
 /**
  * print_square - entry point
- * @a: check character
- * @b: check size
+ * @size: size
  * Return: Always 0 (Success)
  */
 
 void print_square(int size)
 {
 	int a, b;
-	
+
 	if (size < 0)
 		_putchar(10);
 	else
@@ -23,5 +22,7 @@ void print_square(int size)
 			}
 			_putchar('\n');
 		}
+		else
+			_putchar('\n');
 	}
 }
