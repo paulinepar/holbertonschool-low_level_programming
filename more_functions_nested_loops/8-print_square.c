@@ -2,13 +2,15 @@
 
 /**
  * print_square - entry point
- * @n: check character
+ * @a: check character
+ * @b: check size
  * Return: Always 0 (Success)
  */
 
 void print_square(int size)
 {
 	int a, b;
+	
 	if (size < 0)
 		_putchar(10);
 	else
