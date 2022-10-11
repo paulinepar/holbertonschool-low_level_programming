@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- * print_rev - print a string
- * @s: char
+ * puts2 - print a string
+ * @str: char
  * Return: (i)
  */
 void puts2(char *str)
