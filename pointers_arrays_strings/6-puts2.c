@@ -14,8 +14,9 @@ void puts2(char *str)
 	{
 		l++;
 	}
-	for (h = 0; h <= l; h += 2)
+	for (h = 0; h <= l - 1; h += 2)
 	{
 		_putchar(str[h]);
 	}
+	_putchar('\n');
 }
