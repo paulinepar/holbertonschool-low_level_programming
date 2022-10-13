@@ -4,6 +4,7 @@
  * _strcpy - print a string
  * @src: char
  * @dest: char
+ * @n: char
  * Return: (i)
  */
 
