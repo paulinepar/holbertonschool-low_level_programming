@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _strncat - concatene two string
+ * _strncpy - concatene two string
  * @src: char
  * @dest: char
  * @n: char
@@ -11,7 +11,7 @@
 char *_strncpy(char *dest, char *src, int n)
 {
 	int i = 0;
-	int k ;
+	int k;
 
 	for (k = 0; dest[k] != '\0'; k++)
 	{
