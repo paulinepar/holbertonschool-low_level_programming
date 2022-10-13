@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * _strcpy - print a string
- * @src: char
- * @dest: char
+ * reverse_array - reverse the content
+ * @a: char
+ * @n: char
  * Return: (i)
  */
 
@@ -19,7 +19,7 @@ void reverse_array(int *a, int n)
 	}
 
 	i = n - 1;
-	while (i >= b)
+	while (i > b)
 	{
 		tmp = a[b];
 		a[b] = a[i];
