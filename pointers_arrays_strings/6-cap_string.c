@@ -12,7 +12,7 @@ char *cap_string(char *n)
 	char ca[] = "\n\t,' ';.!\"?(){}";
 
 	if (n[0] >= 'a' && n[0] <= 'z')
-	    n[0] -= 32;
+		n[0] -= 32;
 
 	for (i = 0; n[i] != '\0'; i++)
 	{
@@ -20,7 +20,7 @@ char *cap_string(char *n)
 		{
 			if (n[i] == ca[x] && n[i + 1] != '\0')
 				if (n[i + 1] >= 'a' && n[i + 1] <= 'z')
-				n[i + 1] -= 32;
+					n[i + 1] -= 32;
 		}
 	}
 	return (n);
