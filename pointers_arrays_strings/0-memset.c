@@ -1,8 +1,10 @@
 #include "main.h"
 
 /**
- * leet - encodes a string
+ * _memset - fills memory
  * @s: char
+ * @b: char
+ * @n: char
  * Return: (i)
  */
 
