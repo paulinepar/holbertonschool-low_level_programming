@@ -1,0 +1,18 @@
+#include "main.h"
+
+/**
+ * leet - encodes a string
+ * @s: char
+ * Return: (i)
+ */
+
+char *_memcpy(char *dest, char *src, unsigned int n)
+{
+	unsigned i;
+
+	for (i = 0; i < n; i++)
+	{
+		dest[i] = src[i];
+	}
+	return (dest);
+}
