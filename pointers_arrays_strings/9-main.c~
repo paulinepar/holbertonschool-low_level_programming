@@ -1,0 +1,9 @@
+#include "main.h"
+
+/**
+ * puts_half - print a string
+ * @str: char
+ * Return: (i)
+ */
+char *_strcpy(char *dest, char *src)
+{
