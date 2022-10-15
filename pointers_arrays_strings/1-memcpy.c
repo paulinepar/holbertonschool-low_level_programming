@@ -5,7 +5,7 @@
  * @n : char
  * @src: point
  * @dest: point
-Return: (dest)
+Return: (i)
  */
 
 char *_memcpy(char *dest, char *src, unsigned int n)
