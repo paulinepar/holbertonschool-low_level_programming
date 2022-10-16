@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * _strchr - locates a character in a string
- * @s: string to check
- * @c: character to check for
+ * _strspn - gets the length
+ * @s: string
+ * @accept: char
  *
  * Return: pointer to spot in s with c or null
  */
@@ -20,7 +20,7 @@ unsigned int _strspn(char *s, char *accept)
 				break;
 		}
 		if (!(accept[t]))
-		    break;
+			break;
 	}
 		return (n);
 }
