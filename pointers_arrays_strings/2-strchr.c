@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _memset - fills memory
+ * _strchr - locates character
  * @s: string
  * @c: char
  * Return: (i)
@@ -16,5 +16,7 @@ char *_strchr(char *s, char c)
 		if (*(s + i) == c)
 		return (s + i);
 	}
+	if (*(s + i) == c)
+		return (s + i);
 	return (NULL);
 }
