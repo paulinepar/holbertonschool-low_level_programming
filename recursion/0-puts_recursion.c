@@ -2,8 +2,8 @@
 #include <stdio.h>
 
 /**
- * print_chessboard - print chessboard
- * @a: string
+ * _puts_recursion - print string
+ * @s: string
  * Return: 0
  */
 
