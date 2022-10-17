@@ -2,8 +2,8 @@
 #include <stdio.h>
 
 /**
- * _strlen_recursion - printt length
- * @s: string
+ * factorial - return factorial
+ * @n: int
  * Return: 0
  */
 
@@ -18,5 +18,5 @@ int factorial(int n)
 		return (1);
 	}
 	else
-	return n * factorial(n - 1);
+		return (n * factorial(n - 1));
 }
