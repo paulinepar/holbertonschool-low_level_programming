@@ -3,8 +3,9 @@
 #include <stdio.h>
 
 /**
- * _strlen_recursion - printt length
- * @s: string
+ * _pow_recursion - returns value x power y
+ * @x: int
+ * @y: int
  * Return: 0
  */
 int _pow_recursion(int x, int y)
