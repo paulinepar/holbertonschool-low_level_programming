@@ -1,6 +1,14 @@
 #include <stdio.h>
 
-int main (int argc, char *argv[])
+/**
+ * main - argc argv
+ * @argc: char
+ * @argv: char
+ * Return: (i)
+ */
+
+
+int main(int argc, char *argv[])
 {
 	(void) argc;
 
