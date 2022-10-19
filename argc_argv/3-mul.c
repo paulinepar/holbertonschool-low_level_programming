@@ -20,9 +20,9 @@ int main(int argc, char *argv[])
 	}
 	else
 	{
-        n = atoi(argv[1]);
-	i = atoi(argv[2]);
-	res = n * i;
+		n = atoi(argv[1]);
+		i = atoi(argv[2]);
+		res = n * i;
 		printf("%d\n", res);
 	}
 	return (0);
