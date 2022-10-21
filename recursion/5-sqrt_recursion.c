@@ -8,7 +8,7 @@
  * Return: 0
  */
 
-int _moon( int c, int n)
+int _moon(int c, int n)
 {
 	if (c * c == n)
 	{
@@ -16,7 +16,7 @@ int _moon( int c, int n)
 	}
 	else if (c * c < n)
 	{
-		return(_moon(c + 1, n));
+		return (_moon(c + 1, n));
 	}
 	else
 		return (-1);
