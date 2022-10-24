@@ -3,9 +3,8 @@
 #include <stdlib.h>
 
 /**
- * create_array - create array
- * @c: char
- * @size: the size of the memory to print
+ * _strdup - return a pointer
+ * @str: char
  *
  * Return: Nothing.
  */
@@ -23,12 +22,12 @@ char *_strdup(char *str)
 	{
 		size++;
 	}
-	s = malloc(sizeof(char) * (size +1));
+	s = malloc(sizeof(char) * (size + 1));
 		if (s == NULL)
 			return (NULL);
 
 	for (i = 0; str[i] != '\0'; i++)
-	{
+	{é
 		s[i] = str[i];
 	}
 	s[i] = '\0';
