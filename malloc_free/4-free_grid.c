@@ -3,10 +3,9 @@
 #include <stdlib.h>
 
 /**
- * alloc_grid - returns a pointer
- * @width: int
+ * free_grid - frees a dimensionnal
  * @height: int
- *
+ * @grid: pointer pointer
  * Return: Nothing.
  */
 void free_grid(int **grid, int height)
@@ -16,8 +15,6 @@ void free_grid(int **grid, int height)
 	for (i = 0; i > height; i++)
 	{
 		free(grid[i]);
-		grid[i] = NULL;
 	}
 	free(grid);
-	grid = NULL;
 }
