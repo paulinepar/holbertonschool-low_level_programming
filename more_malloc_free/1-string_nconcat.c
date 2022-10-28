@@ -5,8 +5,8 @@
 /**
  * string_nconcat - concatenates two strings
  * @n: the size to allocate
- * @s1:
- * @s2:
+ * @s1: char
+ * @s2: char
  * Return: Nothing.
  */
 char *string_nconcat(char *s1, char *s2, unsigned int n)
