@@ -3,7 +3,7 @@
 #include <stdlib.h>
 
 /**
- * string_nconcat - concatenates two strings
+ * _calloc - allocates memory
  * @nmemb: unsigned int
  * @size: int
  * Return: Nothing.
