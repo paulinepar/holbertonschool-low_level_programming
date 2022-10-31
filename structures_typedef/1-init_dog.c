@@ -6,6 +6,7 @@
  * @name: char
  * @age: float
  * @owner: char
+ * @d: pointer
  * Return: Always 0.
  */
 
