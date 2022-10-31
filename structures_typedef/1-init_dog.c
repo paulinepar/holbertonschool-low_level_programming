@@ -3,9 +3,9 @@
 
 /**
  * init_dog - initialize variable
- * @name:
- * @age:
- * @owner:
+ * @name: char
+ * @age: float
+ * @owner: char
  * Return: Always 0.
  */
 
