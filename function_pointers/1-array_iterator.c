@@ -2,10 +2,10 @@
 #include <stdio.h>
 
 /**
- * print_name - entry point
- * Description: prints a name
- * @name: name to print
- * @f: pointer to a function
+ * array_iterator- entry point
+ * @array: array
+ * @size: size of array
+ * @action: pointer of function
  * Return: 0
  */
 
