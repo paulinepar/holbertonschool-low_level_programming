@@ -6,7 +6,6 @@
  * get_op_func - entry point
  * @s: pointer
  * @int: int
- * @int: int
  * Return: 0
  */
 
