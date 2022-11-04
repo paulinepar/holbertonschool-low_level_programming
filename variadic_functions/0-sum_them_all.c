@@ -6,7 +6,7 @@
  * sum_them_all - return the sum of all
  * @n: First member
  *
- * Return : result of the sum
+ * Return : result
  */
 
 int sum_them_all(const unsigned int n, ...)
