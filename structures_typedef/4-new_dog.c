@@ -4,7 +4,7 @@
 #include <string.h>
 
 /**
- * new_dog - define new type
+ * new_dog - create new dog
  * @name: First member
  * @age: Second member
  * @owner: Third member
@@ -43,8 +43,8 @@ dog_t *new_dog(char *name, float age, char *owner)
 		return (NULL);
 	}
 
-	strcpy(a->name, name);
-	strcpy(a->owner, owner);
+	strcpy(name, a->name);
+	strcpy(owner, a->owner);
 
 	a->age = age;
 
