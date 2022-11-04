@@ -4,7 +4,7 @@
 #include <string.h>
 
 /**
- * new_dog - create new dog
+ * free_dog - create new dog
  * @d: pointer
  *
  * Return: return pointer
