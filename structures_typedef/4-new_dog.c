@@ -9,7 +9,7 @@
  * @age: Second member
  * @owner: Third member
  *
- * Description: Longer description
+ * Return: return pointer
  */
 
 dog_t *new_dog(char *name, float age, char *owner)
@@ -21,6 +21,7 @@ dog_t *new_dog(char *name, float age, char *owner)
 	{
 		free(a->name);
 		free(a->owner);
+		free(a);
 		free(a);
 		return (NULL);
 	}
