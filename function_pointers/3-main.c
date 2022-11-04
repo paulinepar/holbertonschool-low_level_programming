@@ -1,6 +1,13 @@
 #include <stdio.h>
 #include "3-calc.h"
 
+/**
+ * main - print
+ * @argc: counter arg
+ * @argv: list arg
+ * Return: Always 0.
+ */
+
 int main(int argc, char *argv[])
 {
 	int a, b;
