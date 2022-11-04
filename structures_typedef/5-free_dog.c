@@ -5,9 +5,7 @@
 
 /**
  * new_dog - create new dog
- * @name: First member
- * @age: Second member
- * @owner: Third member
+ * @d: pointer
  *
  * Return: return pointer
  */
