@@ -3,9 +3,9 @@
 #include <stdarg.h>
 
 /**
- * sum_them_all - return the sum of all
- * @n: First member
- *
+ * print_numbers - print numbers
+ * @n: number args
+ * @separator: pointer
  * Return: result
  */
 
