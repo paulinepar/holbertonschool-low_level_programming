@@ -6,7 +6,7 @@
 
 /**
  * free_list - free list_t
- *
+ * @head: pointer
  *
  * Return: 0
  */
