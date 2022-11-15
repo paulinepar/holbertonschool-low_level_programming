@@ -6,9 +6,9 @@
 
 /**
  * add_node - add node
- * @head:
+ * @head: double point
  * @str: const char point
- * Return: d
+ * Return: p
  */
 
 list_t *add_node(list_t **head, const char *str)
