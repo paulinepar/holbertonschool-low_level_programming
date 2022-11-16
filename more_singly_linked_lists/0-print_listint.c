@@ -4,9 +4,9 @@
 #include "lists.h"
 
 /**
- * print_list - print list
+ * print_listin - print list
  * @h: pointer const
- * Return: d
+ * Return: n
  */
 
 size_t print_listint(const listint_t *h)
