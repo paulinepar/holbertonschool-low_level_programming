@@ -4,7 +4,7 @@
 #include "lists.h"
 
 /**
- * print_listint - print list
+ * listint_len - return elements
  * @h: pointer const
  * Return: n
  */
