@@ -19,8 +19,9 @@ int create_file(const char *filename, char *text_content)
 		if (text_content == NULL)
 			(text_content = "");
 
+
+		write(fd, text_content, strlen(text_content));
 		close(fd);
 
-		write(STDOUT_FILENO, text_content, strlen(text_content));
 		return (1);
 }
