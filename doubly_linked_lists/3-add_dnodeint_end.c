@@ -5,7 +5,7 @@
 #include <string.h>
 
 /**
- * add_dnodeint - add node int
+ * add_dnodeint_end - add node at end
  * @head: double pointer
  * @n: const int
  * Return: p
