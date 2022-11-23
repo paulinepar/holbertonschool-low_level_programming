@@ -4,7 +4,7 @@
 #include "lists.h"
 
 /**
- * sum_listint - return the sum of data
+ * sum_dlistint - return the sum of data
  * @head: double pointer
  * Return: sum
  */
