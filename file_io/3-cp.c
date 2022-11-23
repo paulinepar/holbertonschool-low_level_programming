@@ -38,8 +38,8 @@ int main(int argc, char *argv[])
 	}
 	if (close(fd == -1))
 	{
-		exit(100);
 		dprintf(STDERR_FILENO, "Error: Can't close fd %i\n", fd);
+		exit(100);
 	}
 	if (close(fd2 == -1))
 	{
