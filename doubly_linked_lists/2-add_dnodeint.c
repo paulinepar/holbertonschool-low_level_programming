@@ -7,12 +7,12 @@
  * add_dnodeint - add node int
  * @h: pointer const
  * @n: const int
- * Return: n
+ * Return: p
  */
 
 dlistint_t *add_dnodeint(dlistint_t **head, const int n)
 {
-	dlistint_t *p, *tmp;
+	dlistint_t *p;
 
 	if (head == NULL)
 		return (NULL);
