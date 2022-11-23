@@ -2,9 +2,9 @@
 #include <string.h>
 
 /**
- *  append_text_to_file - add text at the end
- * @filename: pointer of char
- * @text_content: pointer of char
+ *  main - entry point
+ * @ardv: pointer of char
+ * @argc: number of char
  * Return: 0
  */
 int main(int argc, char *argv[])
