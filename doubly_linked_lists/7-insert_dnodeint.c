@@ -11,14 +11,12 @@
  * Return: sum
  */
 
-dlistint_t *insert_nodeint_at_index(dlistint_t **head, unsigned int idx, int n)
+dlistint_t *insert_dnodeint_at_index(dlistint_t **head, unsigned int idx, int n)
 {
 
 	dlistint_t *new;
 	dlistint_t *tmp;
 	unsigned int i = 0;
-
-
 
 	if (*head == NULL)
 		return (NULL);
