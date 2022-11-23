@@ -9,15 +9,11 @@
  */
 int main(int argc, char *argv[])
 {
-	int fd = 0;
-	int fd2 = 0;
-	int wr = 0;
-	int size = 1;
+	int fd = 0, fd2 = 0, wr = 0, size = 1;
 	char buffer[1024];
 
 	if (argc != 3)
-	{
-		dprintf(STDERR_FILENO, "Usage: cp file_from file_to\n");
+	{ dprintf(STDERR_FILENO, "Usage: cp file_from file_to\n");
 		exit(97);
 	}
 	fd = open(argv[1], O_RDONLY);
