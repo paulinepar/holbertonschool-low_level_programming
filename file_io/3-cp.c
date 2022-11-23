@@ -3,7 +3,7 @@
 
 /**
  *  main - entry point
- * @ardv: pointer of char
+ * @argv: pointer of char
  * @argc: number of char
  * Return: 0
  */
