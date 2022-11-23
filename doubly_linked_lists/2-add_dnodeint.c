@@ -5,7 +5,7 @@
 
 /**
  * add_dnodeint - add node int
- * @h: pointer const
+ * @head: double pointer
  * @n: const int
  * Return: p
  */
@@ -24,9 +24,6 @@ dlistint_t *add_dnodeint(dlistint_t **head, const int n)
 	p->n = n;
 	p->next = *head;
 	*head = p;
-
-	if (p != NULL)
-		p->prev = *head;
 
 	return (p);
 }
