@@ -11,17 +11,17 @@
  * Return: sum
  */
 
-dlistint_t *insert_dnodeint_at_index(dlistint_t **head, unsigned int idx, int n)
+dlistint_t *insert_dnodeint_at_index(dlistint_t **h, unsigned int idx, int n)
 {
 
 	dlistint_t *new;
 	dlistint_t *tmp;
 	unsigned int i = 0;
 
-	if (*head == NULL)
+	if (*h == NULL)
 		return (NULL);
 
-	tmp = *head;
+	tmp = *h;
 
 	while (tmp != NULL)
 	{
