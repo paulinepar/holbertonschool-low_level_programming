@@ -17,7 +17,7 @@ int main(int argc, char *argv[])
 	fd = open(argv[1], O_RDONLY);
 	if (fd == -1)
 	{
-		dprintf(STDERR_FILENO, "Usage: cp file_from file_to s%\n", argv[1]);
+		dprintf(STDERR_FILENO, "Usage: cp file_from file_to %s\n", argv[1]);
 		exit(98);
 	}
 	fd2 = open(argv[2], O_CREAT | O_TRUNC | O_WRONLY, 0664);
