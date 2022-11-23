@@ -28,7 +28,6 @@ int main(int argc, char *argv[])
 	}
 	fd2 = open(argv[2], O_CREAT | O_TRUNC | O_WRONLY, 0664);
 	while (size > 0)
-		/*le buffer recupere les données de fd*/
 	size = read(fd, buffer, 1024);
 	if (size == -1)
 	{
