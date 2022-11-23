@@ -4,7 +4,7 @@
 #include "lists.h"
 
 /**
- * get_nodeint_at_index - return the nth node
+ * get_dnodeint_at_index - return the nth node
  * @head: double pointer
  * @index: unsigned int
  * Return: head
