@@ -1,0 +1,44 @@
+#include <stdlib.h>
+#include <stddef.h>
+#include <stdio.h>
+#include "lists.h"
+#include <string.h>
+
+/**
+ * add_dnodeint - add node int
+ * @head: double pointer
+ * @n: const int
+ * Return: p
+ */
+
+dlistint_t *add_dnodeint_end(dlistint_t **head, const int n)
+{
+	dlistint_t *p;
+	dlistint_t *tmp;
+
+	p = malloc(sizeof(dlistint_t);
+	if (p == NULL)
+
+		return (NULL);
+
+	else
+	{
+
+		p->data=item;
+		if(head == NULL)
+		{
+			ptr->next = NULL;
+			ptr->prev = NULL;
+			head = ptr;
+		}
+		else
+		{
+			temp = head;
+			while(temp->next!=NULL)
+			{
+				temp = temp->next;
+			}
+			temp->next = ptr;
+			ptr ->prev=temp;
+			ptr->next = NULL;
+		}  

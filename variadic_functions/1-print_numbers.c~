@@ -1,0 +1,34 @@
+#include <stdio.h>
+#include "variadic_functions.h"
+#include <stdarg.h>
+
+/**
+ * sum_them_all - return the sum of all
+ * @n: First member
+ *
+ * Return: result
+ */
+
+void print_numbers(const char *separator, const unsigned int n, ...)
+{
+	int i = 0;
+	int a = 0;
+	va_list args;
+
+	if (n == 0)
+		return;
+	if (separator == NULL)
+		return;
+
+	va_start(args, n);
+
+	for (i = 0; i < n; i++)
+	{
+		a = a + va_args(args, n);
+		pritnf("%d\n", a);
+	}
+
+	va_end(args);
+
+	return (a);
+}
