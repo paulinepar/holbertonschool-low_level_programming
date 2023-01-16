@@ -1,8 +1,0 @@
-#include "main.h"
-
-/**
- * _strcpy - print a string
- * @src: char
- * @dest: char
- * Return: (i)
- */

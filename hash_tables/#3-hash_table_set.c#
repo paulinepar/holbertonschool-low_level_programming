@@ -1,0 +1,17 @@
+#include <stdlib.h>
+#include <stddef.h>
+#include <stdio.h>
+#include "hash_tables.h"
+
+/**
+ * hash_table_set - add an element to the hash table
+ * @key: const char
+ * @value: const char
+ *
+ * Return: n
+ */
+
+int hash_table_set(hash_table_t *ht, const char *key, const char *value)
+{
+	return ();
+}
